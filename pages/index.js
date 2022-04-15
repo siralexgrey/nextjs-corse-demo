@@ -9,8 +9,9 @@ const HomePage = (props) => {
     <>
       <Head>
         <title>React Meetups</title>
+        <meta name='description' content="Browse a huge lis of something testing React NextJS" />
       </Head>
-      <MeetupList meetups={props.meetups} />;
+      <MeetupList meetups={props.meetups} />
     </>
   )
 };
